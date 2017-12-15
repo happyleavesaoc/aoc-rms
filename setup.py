@@ -9,7 +9,7 @@ setup(
     author='happyleaves',
     author_email='happyleaves.tfr@gmail.com',
     packages=find_packages(),
-    install_requires=['numpy', 'scipy', 'sklearn'],
+    install_requires=['numpy', 'pyparsing', 'scipy', 'sklearn'],
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
