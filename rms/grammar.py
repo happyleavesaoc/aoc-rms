@@ -24,11 +24,10 @@ Category (2) is rejected. Some examples of rejected syntax errors:
 
 # pylint: disable=expression-not-assigned, pointless-statement
 
-from pyparsing import (
-    ParseException, Forward, Group, Literal, Word, Optional, Suppress,
-    LineEnd, StringStart, StringEnd, Combine, FollowedBy, ZeroOrMore,
-    javaStyleComment, alphanums, nums, oneOf, alphas8bit, OneOrMore
-)
+from pyparsing import (Combine, FollowedBy, Forward, Group, LineEnd, Literal,
+                       OneOrMore, Optional, ParseException, StringEnd,
+                       StringStart, Suppress, Word, ZeroOrMore, alphanums,
+                       alphas8bit, javaStyleComment, nums, oneOf)
 
 TOKEN = alphanums + alphas8bit + '._#'
 INTS = nums + '-'
